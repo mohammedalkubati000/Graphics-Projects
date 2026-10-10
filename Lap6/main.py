@@ -1,9 +1,9 @@
 import glfw
 import moderngl
 import numpy as np
-import robot
-from renderer import Renderer
-from camera import Camera2D
+import Lap6.robot as robot
+from Lap6.renderer import Renderer
+from Lap6.camera import Camera2D
 
 is_grabbed = False
 
